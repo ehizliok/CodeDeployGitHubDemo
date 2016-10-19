@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: SampleApp_Linux/index.html
-    destination: /var/www/html/
+    destination: /var/www/html/SampleApp_Linux
 hooks:
   BeforeInstall:
     - location: SampleApp_Linux/scripts/install_dependencies
